@@ -1,6 +1,15 @@
-/bin/
-/.settings/
+# Eclipse
 .classpath
 .project
+.settings/
+
+# Build folder
+/bin/
+
+# Outras configurações temporárias ou específicas
 *.log
 *.tmp
+*.bak
+
+# Arquivos do Eclipse
+*.swp

@@ -53,7 +53,6 @@ public class UsuarioDAO {
         return null;
     }
     
-    // Verifica se o usuário já existe
     public boolean usuarioExiste(String login) {
         String sql = "SELECT COUNT(*) FROM usuarios WHERE login = ?";
         
@@ -73,7 +72,6 @@ public class UsuarioDAO {
         return false;
     }
     
-    // Lista todos os usuários
     public List<Usuario> listarUsuarios() {
         String sql = "SELECT id, nome, login, tipo FROM usuarios";
         List<Usuario> usuarios = new ArrayList<>();
