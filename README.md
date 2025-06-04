@@ -270,7 +270,7 @@ private  static  final  String  SENHA = "sua_senha";
 
   
 
-![Diagrama UML](docs/uml.png)
+![Diagrama UML](docs/diagram.png)
 
   
 
